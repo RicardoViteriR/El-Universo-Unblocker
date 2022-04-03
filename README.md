@@ -2,7 +2,7 @@
 
 Script to unblock blurring at www.eluniverso.com
 
-The script is unptimized, but good enough.
+Use is for research purposes only
 
 ## How to use
 
