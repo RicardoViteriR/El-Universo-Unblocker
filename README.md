@@ -12,5 +12,5 @@ Go to the page where content is blurred, go to dev tools, copy and paste the cod
 
 1. Go to Chrome Extensions
 2. Enabel developer developer mode (top right corner)
-3. Load unpacked
-4. Look for folder with manifest.json file
+3. Click on "Load unpacked" button
+4. Load the folder with manifest.json file (may look like an empty folder)
