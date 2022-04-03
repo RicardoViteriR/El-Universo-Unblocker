@@ -6,7 +6,7 @@ The script is unptimized, but good enough.
 
 ## How to use
 
-Go to the page where content is blurred, go to dev tools, copy and paste the code from index.js
+Go to the page where content is blurred, go to dev tools, copy and paste the code from index.js in the console
 
 ## Install as a Chrome Extension so you don't have to copy and paste the code
 
