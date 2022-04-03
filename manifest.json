@@ -1,0 +1,16 @@
+{
+  "name": "El Universo Unblurrer",
+  "version": "1.0.0",
+  "description": "Unblurs content",
+  "manifest_version": 3,
+  "author": "Rivira",
+  "content_scripts": [
+    {
+      "matches": ["https://www.eluniverso.com/*"],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://www.eluniverso.com/*"]
+}

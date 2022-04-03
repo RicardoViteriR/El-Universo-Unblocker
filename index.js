@@ -1,11 +1,10 @@
-const sleep = (ms) =>
-  new Promise((resolve) => {
-    setTimeout(() => {
-      resolve();
-    }, ms);
-  });
-
 (async () => {
+  const sleep = (ms) =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve();
+      }, ms);
+    });
   // Delete template message
 
   // Delete subscription message
