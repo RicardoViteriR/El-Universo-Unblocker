@@ -6,11 +6,17 @@
   "author": "Rivira",
   "content_scripts": [
     {
-      "matches": ["https://www.eluniverso.com/*"],
+      "matches": [
+        "https://www.eluniverso.com/*",
+        "https://eluniverso-el-universo-prod.cdn.arcpublishing.com/*"
+      ],
       "js": ["index.js"],
       "run_at": "document_end"
     }
   ],
   "permissions": ["tabs", "scripting"],
-  "host_permissions": ["https://www.eluniverso.com/*"]
+  "host_permissions": [
+    "https://www.eluniverso.com/*",
+    "https://eluniverso-el-universo-prod.cdn.arcpublishing.com/*"
+  ]
 }
